@@ -20,8 +20,9 @@ $ cd ../RockPaper-main
 $ npm install
 $ npm run build
 $ npm run start
-----
+```
 Para poder experimentar todas las funcionalidades de la PWA:
+```
 $ npm install -g serve  
 $ serve -s build
 ```
