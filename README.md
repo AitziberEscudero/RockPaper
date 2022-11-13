@@ -5,7 +5,7 @@
 ***
 Micro app móvil web progresiva (PWA) basada en el juego de “Piedra, papel o tijera”.
 Puedes encontrar el proyecto en el siguiente enlace: https://rock-paper-jade.vercel.app/
-## Technologías
+## Tecnologías
 ***
 * [react](https://es.reactjs.org/): Versión 18.2.0 
 * [workbox](https://developer.chrome.com/docs/workbox/): Version 6.5.4
