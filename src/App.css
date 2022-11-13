@@ -1,3 +1,7 @@
+body {
+  background-color: #dce3eb;
+}
+
 .App {
   text-align: center;
 }
@@ -14,25 +18,258 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.Header-title {
+  color: #0036FF;
+}
+
+.App-header>div {
+  padding-left: 1rem;
+}
+
+.TitlePages {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  color: #0036FF
+}
+
+.SubTitlePages {
+  font-size: 1.3rem;
+  color: #0036FF;
+  margin-bottom: 0rem;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.HomeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeEnterCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.HomeDialog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #878EA0;
+  border-radius: 0.5rem;
+  padding-inline: 1rem;
+  margin-top: 2rem;
+}
+
+.HomeDialog>p {
+  font-size: 0.8rem;
+  color: white;
+  font-weight: 200;
+}
+
+.WinnerLabel {
+  margin-top: 0rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #0036FF
+}
+
+.ItemsContainer {
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+.ItemBtn {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  border-color: #0036FF;
+  background-color: white;
+}
+
+.ItemBtn:disabled {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  border-color: #3c4f93;
+  background-color: #878EA0;
+}
+
+.ItemBtn:hover {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  border-color: #0036FF;
+  background-color: #fbe7eb;
+}
+
+.ItemBtn:disabled:hover {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  border-color: #3c4f93;
+  background-color: #878EA0;
+}
+
+.ItemIcon {
+  font-size: 5rem;
+  font-weight: lighter;
+  padding: 0.3rem;
+  color: #0036FF;
+}
+
+.ItemIcon:hover {
+  font-size: 5rem;
+  font-weight: lighter;
+  padding: 0.3rem;
+  color: #0327ab;
+}
+
+.AllCardsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.AllCardsContainer>p {
+  margin: 0.8rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #0036FF;
+}
+
+.CardContainer {
+  padding: 0.8rem;
+  padding-inline: 2rem;
+  border-radius: 0.8rem;
+  background-color: #E9EEFB;
+}
+
+.CardContainerName {
+  margin: 0rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #0036FF
+}
+
+.ScoreContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ScoreTxt {
+  margin: 0rem;
+  padding-right: 0.5rem;
+  color: #0036FF;
+}
+
+.ScoreNum {
+  margin: 0rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #0036FF;
+}
+
+.SelectedItemContainer {
+  height: 1.5rem;
+}
+
+.SelectedItemContainer>p {
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #0036FF;
+}
+
+.Button {
+  border-radius: 0.5rem;
+  border-color: #0036FF;
+  background-color: #dce3eb;
+  border: 0.2rem solid #0036FF !important;
+}
+
+.Button:hover {
+  border-radius: 0.5rem;
+  border-color: #0036FF;
+  background-color: #fbe7eb;
+  border: 0.2rem solid #0036FF !important;
+}
+
+.Button-icon {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  color: #0036FF;
+}
+
+.Button-icon:hover {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  color: #0327ab;
+}
+
+.InputEnter {
+  font-size: 1rem;
+  color: #0036FF;
+  font-weight: bold;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.8rem;
+  border-color: #0036FF;
+  background-color: #dce3eb;
+  border: 0.2rem solid #0036FF !important;
+}
+
+.InputEnter:focus {
+  font-size: 1rem;
+  color: #0036FF;
+  font-weight: bold;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.8rem;
+  border-color: #0036FF;
+  background-color: white;
+  box-shadow: none;
+  border: 0.2rem solid #0036FF !important;
+}
+
+.InputEnter:hover {
+  font-size: 1rem;
+  color: #0036FF;
+  font-weight: bold;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.8rem;
+  border-color: #0036FF;
+  background-color: #fbe7eb;
+  border: 0.2rem solid #0036FF !important;
 }
