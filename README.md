@@ -12,7 +12,7 @@ Puedes encontrar el proyecto en el siguiente enlace: https://rock-paper-jade.ver
 * [idb-keyval](https://www.npmjs.com/package/idb-keyval): Versión 6.2.0
 * [@testing-library](https://testing-library.com/): Versión 13.5.0
 * [primereact](https://www.primefaces.org/primereact/): Versión 8.7.2
-## Installation
+## Instalación
 ***
 ```
 $ git clone https://github.com/AitziberEscudero/RockPaper.git
